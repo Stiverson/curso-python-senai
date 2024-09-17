@@ -1,0 +1,3 @@
+https://github.com/guilouro/Python-para-Zumbis/tree/master/Lista1
+
+https://github.com/marquesds/python/tree/master
