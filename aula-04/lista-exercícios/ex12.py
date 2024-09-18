@@ -4,4 +4,4 @@ salario_minimo = float (input ("Informe o salário mínimo : R$ "))
 
 quantidade = salario / salario_minimo
 
-print("O funcionário ganha ", quantidade," salários mínimos")
+print(f"O funcionário ganha {quantidade:.0f} salários mínimos")
