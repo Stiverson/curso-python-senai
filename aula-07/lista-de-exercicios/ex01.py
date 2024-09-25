@@ -1,3 +1,5 @@
+# Faça um programa com uma função que retorne o maior de dois números.
+
 def verificar(num_1,num_2):
     if num_1 >= num_2:
         print("O primeiro numero digitado {} é maior:".format(num_1))

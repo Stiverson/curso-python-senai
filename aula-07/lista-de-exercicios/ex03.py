@@ -1,3 +1,6 @@
+# Faça um programa com uma função que receba o lado (l) de um quadrado e
+# retorne a sua área (A = lado2).
+
 num_1 = int(input("Digite o valor do lado do quadarado : "))
 
 def area_quadrado(num_1):

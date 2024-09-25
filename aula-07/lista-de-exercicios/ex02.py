@@ -1,3 +1,6 @@
+# Faça um programa com uma função que receba dois números e retorne True
+# se o primeiro for múltiplo do segundo.
+
 num_1 = int(input("Digite um numero : "))
 num_2 = int(input("Digite outro numero : "))
 
