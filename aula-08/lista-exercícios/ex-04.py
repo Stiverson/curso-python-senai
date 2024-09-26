@@ -1,3 +1,7 @@
+# Faça um programa que leia um vetor de 10 caracteres minúsculos e diga
+# quantas consoantes foram lidas.
+
+
 caracteres=[]
 
 vogais=["a","e","i","o","u"]
