@@ -4,11 +4,11 @@
 # pode ir de 0 a 10.0.
 
 def calcular_media_ponderada():
-    """Calcula a média ponderada de um aluno com pesos 2, 3 e 5.
+    # """Calcula a média ponderada de um aluno com pesos 2, 3 e 5.
 
-    Retorna:
-        A média ponderada do aluno.
-    """
+    # Retorna:
+    #     A média ponderada do aluno.
+    # """
 
     # Solicita as notas ao usuário
     nota1 = float(input("Digite a primeira nota (peso 2): "))

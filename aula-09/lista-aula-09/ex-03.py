@@ -19,12 +19,8 @@
 # Total de Descontos : R$ 165,00
 # Salário Líquido : R$ 935,00
 
-
-
-
-
 def calcular_folha_pagamento(valor_hora, horas_trabalhadas):
-    """Calcula a folha de pagamento com base nos dados fornecidos."""
+    # """Calcula a folha de pagamento com base nos dados fornecidos."""
 
     # Cálculo do salário bruto
     salario_bruto = valor_hora * horas_trabalhadas

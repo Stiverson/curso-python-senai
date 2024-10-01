@@ -1,22 +1,22 @@
 # Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As
 # perguntas são:
-# a. &quot;Telefonou para a vítima?&quot;
-# b. &quot;Esteve no local do crime?&quot;
-# c. &quot;Mora perto da vítima?&quot;
-# d. &quot;Devia para a vítima?&quot;
-# e. &quot;Já trabalhou com a vítima?&quot;
+# a.Telefonou para a vítima
+# b.Esteve no local do crime
+# c.Mora perto da vítima
+# d.Devia para a vítima
+# e.Já trabalhou com a vítima
 # O programa deve no final emitir uma classificação sobre a participação da pessoa no
 # crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada
-# como &quot;Suspeita&quot;, entre 3 e 4 como &quot;Cúmplice&quot; e 5 como &quot;Assassino&quot;. Caso contrário,
-# ele será classificado como &quot;Inocente&quot;.
+# comoSuspeit, entre 3 e 4 comoCúmplic e 5 comoAssassin. Caso contrário,
+# ele será classificado como Inocente.
 
 
 def classificar_suspeito():
-  """Classifica um suspeito com base em suas respostas a perguntas sobre um crime.
+  # """Classifica um suspeito com base em suas respostas a perguntas sobre um crime.
 
-  Retorna:
-    Uma string indicando a classificação do suspeito.
-  """
+  # Retorna:
+  #   Uma string indicando a classificação do suspeito.
+  # """
 
   # Lista de perguntas
   perguntas = [

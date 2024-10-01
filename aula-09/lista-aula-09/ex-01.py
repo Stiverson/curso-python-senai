@@ -13,6 +13,6 @@ soma = (int(int1) * 3) + float(real)
 
 potencia = float(real)**3
 
-print("Produto do dobro do primeiro com metade do segundo: %d" % produto)
-print("Soma do triplo do primeiro com o terceiro: %.2f" % soma)
-print("Numero real elevado ao cubo: %.2f" % potencia)
+print(f"Produto do dobro do primeiro com metade do segundo: {produto:.0f}")
+print(f"Soma do triplo do primeiro com o terceiro: {soma:.2f}")
+print(f"Numero real elevado ao cubo: {potencia:.2f}")

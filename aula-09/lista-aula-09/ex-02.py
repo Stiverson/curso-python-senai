@@ -7,7 +7,7 @@
 
 
 def calcular_media(notas):
-  """Calcula a média de uma lista de notas."""
+  # """Calcula a média de uma lista de notas."""
   return sum(notas) / len(notas)
 
 notas = []

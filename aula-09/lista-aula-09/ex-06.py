@@ -8,16 +8,16 @@
 # - Triângulo escaleno – três lados diferentes
 
 def classificar_triangulo(lado1, lado2, lado3):
-  """Classifica um triângulo de acordo com os seus lados.
+  # """Classifica um triângulo de acordo com os seus lados.
 
-  Args:
-    lado1: Comprimento do primeiro lado.
-    lado2: Comprimento do segundo lado.
-    lado3: Comprimento do terceiro lado.
+  # Args:
+  #   lado1: Comprimento do primeiro lado.
+  #   lado2: Comprimento do segundo lado.
+  #   lado3: Comprimento do terceiro lado.
 
-  Returns:
-    Uma string indicando o tipo de triângulo, ou "Não é um triângulo".
-  """
+  # Returns:
+  #   Uma string indicando o tipo de triângulo, ou "Não é um triângulo".
+  # """
 
   # Verifica se os lados formam um triângulo
   if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:

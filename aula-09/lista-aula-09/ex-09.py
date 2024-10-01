@@ -10,20 +10,16 @@
 # pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro
 # do álcool é R$ 1,90.
 
-
-
-
-
 def calcular_valor_a_pagar(litros, tipo_combustivel):
-    """Calcula o valor a ser pago por um abastecimento.
+    # """Calcula o valor a ser pago por um abastecimento.
 
-    Args:
-        litros: Quantidade de litros abastecidos.
-        tipo_combustivel: Tipo de combustível ('A' para álcool, 'G' para gasolina).
+    # Args:
+    #     litros: Quantidade de litros abastecidos.
+    #     tipo_combustivel: Tipo de combustível ('A' para álcool, 'G' para gasolina).
 
-    Returns:
-        O valor total a ser pago.
-    """
+    # Returns:
+    #     O valor total a ser pago.
+    # """
 
     preco_alcool = 1.90
     preco_gasolina = 2.50

@@ -3,17 +3,17 @@
 
 
 def converter_para_segundos(dias, horas, minutos, segundos):
-  """Converte dias, horas, minutos e segundos para segundos.
+  # """Converte dias, horas, minutos e segundos para segundos.
 
-  Args:
-    dias: Quantidade de dias.
-    horas: Quantidade de horas.
-    minutos: Quantidade de minutos.
-    segundos: Quantidade de segundos.
+  # Args:
+  #   dias: Quantidade de dias.
+  #   horas: Quantidade de horas.
+  #   minutos: Quantidade de minutos.
+  #   segundos: Quantidade de segundos.
 
-  Returns:
-    O total de segundos.
-  """
+  # Returns:
+  #   O total de segundos.
+  # """
 
   # Convertendo cada unidade para segundos e somando
   total_segundos = (dias * 24 * 60 * 60) + (horas * 60 * 60) + (minutos * 60) + segundos
