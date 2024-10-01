@@ -6,3 +6,5 @@ https://github.com/marquesds/python/tree/master
 https://github.com/isquicha/exercicios-logica-python
 
 https://github.com/MarcosOshiro/python-para-zumbis/blob/master/Lista%2012/Lista_12_Google_Python_Class.py
+
+https://github.com/isquicha/exercicios-logica-python/tree/main
