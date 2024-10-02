@@ -12,14 +12,14 @@
 # 50 - R$ 99.50
 
 def gerar_tabela_precos(quantidade_maxima):
-  # """Gera uma tabela de preços para uma loja de R$ 1,99.
+  # Gera uma tabela de preços para uma loja de R$ 1,99.
 
   # Args:
-  #   quantidade_maxima: Número máximo de produtos na tabela.
+  #  quantidade_maxima: Número máximo de produtos na tabela.
 
   # Returns:
   #   Uma string formatada com a tabela de preços.
-  # """
+
 
   valor_unitario = 1.99
   tabela = []

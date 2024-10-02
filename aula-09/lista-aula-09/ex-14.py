@@ -13,9 +13,9 @@
 # h. Encerre o programa com uma mensagem;
 
 def analisar_notas():
-    # """
+   
     # Lê notas do usuário até que -1 seja informado e realiza diversas análises.
-    # """
+   
 
     notas = []
     while True:

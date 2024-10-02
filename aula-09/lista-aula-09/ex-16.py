@@ -3,15 +3,14 @@
 # número 4, a saída deve ser 10.
 
 def soma_ate_numero(numero):
-    # """Calcula a soma dos números de 1 até o número informado.
+    #Calcula a soma dos números de 1 até o número informado.
 
     # Args:
     #     numero: O número até o qual a soma será calculada.
 
     # Returns:
     #     A soma dos números de 1 até o número informado.
-    # """
-
+    
     soma = 0
     for i in range(1, numero + 1):
         soma += i

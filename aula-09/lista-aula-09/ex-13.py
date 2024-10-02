@@ -20,7 +20,7 @@
 # Média: 9.04
 
 def calcular_media_ginastica(nome, notas):
-  # """Calcula a média de um ginasta, descartando a melhor e a pior nota.
+  # Calcula a média de um ginasta, descartando a melhor e a pior nota.
 
   # Args:
   #   nome: O nome do ginasta.
@@ -28,7 +28,6 @@ def calcular_media_ginastica(nome, notas):
 
   # Returns:
   #   Uma tupla com o nome do ginasta, a melhor nota, a pior nota e a média final.
-  # """
 
   # Ordenar as notas
   notas_ordenadas = sorted(notas)

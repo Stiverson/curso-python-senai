@@ -13,7 +13,7 @@
 # desconto e valor a pagar.
 
 def gerar_cupom_fiscal():
-    # """Gera um cupom fiscal para a promoção de carnes do Hipermercado PagSempreMais."""
+    # Gera um cupom fiscal para a promoção de carnes do Hipermercado PagSempreMais.
 
     # Preços das carnes por faixa de peso
     precos = {

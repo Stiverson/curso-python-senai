@@ -4,14 +4,14 @@
 
 
 def inverter_numero(numero):
-  # """Inverte os dígitos de um número inteiro.
+  # Inverte os dígitos de um número inteiro.
 
   # Args:
   #   numero: O número inteiro a ser invertido.
 
   # Returns:
   #   O número com os dígitos invertidos.
-  # """
+  
 
   # Converte o número para uma string
   numero_str = str(numero)

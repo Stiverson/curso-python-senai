@@ -6,14 +6,13 @@
 # Acima de R$ 1000,00 5%
 
 def calcular_novo_salario(salario_atual):
-  # """Calcula o novo salário com base em uma tabela de reajuste.
+  # Calcula o novo salário com base em uma tabela de reajuste.
 
   # Args:
   #   salario_atual: O salário atual do funcionário.
 
   # Returns:
   #   O novo salário reajustado.
-  # """
 
   if salario_atual < 500:
     reajuste = 0.15

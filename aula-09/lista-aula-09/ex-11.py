@@ -12,7 +12,7 @@
 # adquiridas e escreva o valor a ser pago pelo cliente.
 
 def calcular_preco_fruta(fruta, quantidade):
-    # """Calcula o preço de uma fruta de acordo com a quantidade."""
+    # Calcula o preço de uma fruta de acordo com a quantidade.
     preco_por_kg = {
         "morango": 2.5 if quantidade <= 5 else 2.2,
         "maçã": 1.8 if quantidade <= 5 else 1.5
@@ -20,7 +20,7 @@ def calcular_preco_fruta(fruta, quantidade):
     return preco_por_kg[fruta] * quantidade
 
 def aplicar_desconto(valor_total):
-    # """Aplica um desconto de 10% se o valor total for maior que R$25."""
+    # Aplica um desconto de 10% se o valor total for maior que R$25.
     if valor_total > 25:
         return valor_total * 0.9
     return valor_total
