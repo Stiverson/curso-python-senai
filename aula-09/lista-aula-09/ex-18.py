@@ -6,9 +6,6 @@
 def calcular_media_ponderada():
     # Calcula a média ponderada de um aluno com pesos 2, 3 e 5.
 
-    # Retorna:
-    #     A média ponderada do aluno.
-
     # Solicita as notas ao usuário
     nota1 = float(input("Digite a primeira nota (peso 2): "))
     nota2 = float(input("Digite a segunda nota (peso 3): "))

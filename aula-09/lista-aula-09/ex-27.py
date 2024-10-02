@@ -14,12 +14,6 @@
 def fahrenheit_para_celsius(fahrenheit):
 #  Converte uma temperatura de Fahrenheit para Celsius.
 
-#   Args:
-#     fahrenheit: Temperatura em Fahrenheit.
-
-#   Returns:
-#     Temperatura em Celsius.
-
   celsius = (fahrenheit - 32) * 5/9
   return celsius
 

@@ -10,24 +10,15 @@
 def classificar_triangulo(lado1, lado2, lado3):
   # Classifica um triângulo de acordo com os seus lados.
 
-  # Args:
-  #   lado1: Comprimento do primeiro lado.
-  #   lado2: Comprimento do segundo lado.
-  #   lado3: Comprimento do terceiro lado.
-
-  # Returns:
-  #   Uma string indicando o tipo de triângulo, ou "Não é um triângulo".
-  
-
   # Verifica se os lados formam um triângulo
   if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
     # É um triângulo
     if lado1 == lado2 == lado3:
-      return "Equilátero"
+      return "Os valores do triângulo digitado é um triângulo Equilátero"
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
-      return "Isósceles"
+      return "Os valores do triângulo digitado é um triângulo Isósceles"
     else:
-      return "Escaleno"
+      return "Os valores do triângulo digitado é um triângulo Escaleno"
   else:
     return "Não é um triângulo"
 

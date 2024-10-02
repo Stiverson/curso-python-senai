@@ -14,18 +14,11 @@
 def gerar_tabela_precos(quantidade_maxima):
   # Gera uma tabela de preços para uma loja de R$ 1,99.
 
-  # Args:
-  #  quantidade_maxima: Número máximo de produtos na tabela.
-
-  # Returns:
-  #   Uma string formatada com a tabela de preços.
-
-
   valor_unitario = 1.99
   tabela = []
   for quantidade in range(1, quantidade_maxima + 1):
       valor_total = quantidade * valor_unitario
-      tabela.append(f"{quantidade} - R$ {valor_total:.2f}")
+      tabela.append(f"Valor por quantidade {quantidade} - R$ {valor_total:.2f}")
 
   return "\n".join(tabela)
 
@@ -34,5 +27,8 @@ quantidade_maxima = 50
 
 # Gerar e imprimir a tabela
 tabela_precos = gerar_tabela_precos(quantidade_maxima)
+print("-----------------------------------")
 print("Lojas Quase Dois - Tabela de preços")
+print("-----------------------------------")
 print(tabela_precos)
+print("-----------------------------------")

@@ -4,8 +4,6 @@
 # Caso a nova média seja igual ou superior a 5, apresentar a mensagem “APROVADO”,
 # caso contrário, apresentar a mensagem “REPROVADO”.
 
-
-
 def calcular_media(notas):
   # Calcula a média de uma lista de notas.
   return sum(notas) / len(notas)

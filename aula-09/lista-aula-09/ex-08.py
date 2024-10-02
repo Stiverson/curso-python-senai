@@ -1,18 +1,12 @@
 # Fazer um algoritmo que ao receber o salário atual de um funcionário, calcule o valor
 # do novo salário reajustado de acordo com a tabela abaixo:
 # Salário Atual Reajuste
-# Abaixo de R$ 500,00 15%
-# De R$ 500,00 até R$ 1000,00 10%
-# Acima de R$ 1000,00 5%
+# Abaixo de R$ 500,00 - 15%
+# De R$ 500,00 até R$ 1000,00 - 10%
+# Acima de R$ 1000,00 - 5%
 
 def calcular_novo_salario(salario_atual):
   # Calcula o novo salário com base em uma tabela de reajuste.
-
-  # Args:
-  #   salario_atual: O salário atual do funcionário.
-
-  # Returns:
-  #   O novo salário reajustado.
 
   if salario_atual < 500:
     reajuste = 0.15

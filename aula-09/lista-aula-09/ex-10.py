@@ -14,10 +14,6 @@
 def classificar_suspeito():
   # Classifica um suspeito com base em suas respostas a perguntas sobre um crime.
 
-  # Retorna:
-  #   Uma string indicando a classificação do suspeito.
- 
-
   # Lista de perguntas
   perguntas = [
     "Telefonou para a vítima?",

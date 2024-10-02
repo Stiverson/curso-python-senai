@@ -20,33 +20,30 @@
 # Média: 9.04
 
 def calcular_media_ginastica(nome, notas):
-  # Calcula a média de um ginasta, descartando a melhor e a pior nota.
+  # "Calcula a média das notas de um ginasta, descartando a melhor e a pior.
 
-  # Args:
-  #   nome: O nome do ginasta.
-  #   notas: Uma lista com as 7 notas do ginasta.
-
-  # Returns:
-  #   Uma tupla com o nome do ginasta, a melhor nota, a pior nota e a média final.
-
-  # Ordenar as notas
+ 
   notas_ordenadas = sorted(notas)
-
-  # Remover a melhor e a pior nota
-  notas_validas = notas_ordenadas[1:-1]
-
-  # Calcular a média
+  notas_validas = notas_ordenadas[1:-1]  # Remove a primeira e a última nota
   media = sum(notas_validas) / len(notas_validas)
-
   return nome, notas_ordenadas[-1], notas_ordenadas[0], media
 
-# Entrada de dados (exemplo)
-nome_ginasta = "Aparecido Parente"
-notas = [9.9, 7.5, 9.5, 8.5, 9.0, 8.5, 9.7]
+# Loop para inserir múltiplos ginastas
+while True:
+  nome_ginasta = input("Digite o nome do ginasta (ou 'sair' para encerrar): ")
+  if nome_ginasta.lower() == 'sair':
+    break
 
-# Chamada da função e exibição do resultado
-resultado = calcular_media_ginastica(nome_ginasta, notas)
-print("Atleta:", resultado[0])
-print("Melhor nota:", resultado[1])
-print("Pior nota:", resultado[2])
-print("Média:", resultado[3])
+  notas_str = input("Digite as 7 notas separadas por espaço: ")
+  notas = [float(nota) for nota in notas_str.split()]
+
+  if len(notas) != 7:
+    print("Você deve digitar exatamente 7 notas.")
+    continue
+
+  resultado = calcular_media_ginastica(nome_ginasta, notas)
+  print("\nResultado final:")
+  print("Atleta:", resultado[0])
+  print("Melhor nota:", resultado[1])
+  print("Pior nota:", resultado[2])
+  print("Média:", resultado[3])

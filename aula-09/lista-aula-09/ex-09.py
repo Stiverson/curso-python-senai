@@ -13,13 +13,6 @@
 def calcular_valor_a_pagar(litros, tipo_combustivel):
     # Calcula o valor a ser pago por um abastecimento.
 
-    # Args:
-    #     litros: Quantidade de litros abastecidos.
-    #     tipo_combustivel: Tipo de combustível ('A' para álcool, 'G' para gasolina).
-
-    # Returns:
-    #     O valor total a ser pago.
-
     preco_alcool = 1.90
     preco_gasolina = 2.50
 

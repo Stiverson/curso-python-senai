@@ -2,16 +2,6 @@ import math
 
 def calcular_raizes(a, b, c):
 #   Calcula as raízes de uma equação de segundo grau.
-
-#   Args:
-#     a: Coeficiente quadrático.
-#     b: Coeficiente linear.
-#     c: Termo independente.
-
-#   Returns:
-#     Uma tupla com as raízes, ou None se não houver raízes reais.
- 
-
   if a == 0:
     print("Não é uma equação de segundo grau.")
     return None

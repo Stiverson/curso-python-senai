@@ -15,8 +15,6 @@
 def analisar_notas():
    
     # Lê notas do usuário até que -1 seja informado e realiza diversas análises.
-   
-
     notas = []
     while True:
         nota = float(input("Digite uma nota (ou -1 para encerrar): "))
@@ -29,32 +27,42 @@ def analisar_notas():
     print(f"Quantidade de notas: {quantidade_notas}")
 
     # b. Valores na ordem informada
+    print("--------------")
     print("Valores na ordem informada:", end=" ")
+    print("--------------")
     for nota in notas:
+        print("")
         print(f"{nota:.2f}", end=" ")
+        print("")
     print()
 
     # c. Valores na ordem inversa
+    print("-------------------------")
     print("Valores na ordem inversa:")
+    print("-------------------------")
     for nota in reversed(notas):
+        print("")
         print(f"{nota:.2f}")
+        print("")
 
     # d. Soma dos valores
     soma = sum(notas)
+    print("----------------------------")
     print(f"Soma dos valores: {soma:.2f}")
-
+    print("----------------------------")
     # e. Média dos valores
     media = soma / quantidade_notas
+   
     print(f"Média dos valores: {media:.2f}")
-
+    print("----------------------------")
     # f. Quantidade de valores acima da média
     acima_media = sum(1 for nota in notas if nota > media)
     print(f"Quantidade de valores acima da média: {acima_media}")
-
+    print("----------------------------------------------------")
     # g. Quantidade de valores abaixo de sete
     abaixo_sete = sum(1 for nota in notas if nota < 7)
     print(f"Quantidade de valores abaixo de sete: {abaixo_sete}")
-
+    print("----------------------------------------------------")
     print("Programa encerrado.")
 
 # Chamada da função

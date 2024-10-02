@@ -1,12 +1,6 @@
 def calcular_salario_atual(salario_inicial=1000):
     #Calcula o salário atual de um funcionário com base nos aumentos anuais.
 
-    # Args:
-    #     salario_inicial (int, optional): Salário inicial do funcionário. Defaults to 1000.
-
-    # Returns:
-    #     float: Salário atual do funcionário.
-
     ano_inicial = 1995
     ano_atual = 2023  # Substitua pelo ano atual desejado
 
