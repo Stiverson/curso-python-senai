@@ -19,19 +19,12 @@ Python é uma linguagem de programação poderosa e versátil, utilizada em dive
 
 Fundamentos: Variáveis, tipos de dados, operadores, estruturas de controle, funções.
 Orientação a objetos: Classes, objetos, herança, polimorfismo.
-Bibliotecas essenciais: NumPy, Pandas, Matplotlib, Scikit-learn.
-Projetos práticos: [Liste os projetos desenvolvidos, por exemplo: analisador de sentimentos, jogo da forca, visualização de dados].
-
 
 
 Tecnologias Utilizadas:
 
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-DA1F26?style=for-the-badge&logo=jupyter)
-![NumPy](https://img.shields.io/badge/NumPy-003366?style=for-the-badge&logo=numpy)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-348ABD?style=for-the-badge&logo=matplotlib)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![Visual](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 Contribuições:
 
