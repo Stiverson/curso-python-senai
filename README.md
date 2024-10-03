@@ -32,10 +32,10 @@ Sinta-se à vontade para contribuir com este repositório! Se você encontrar al
 
 Entre em contato:
 
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white):https://www.linkedin.com/in/stiverson-rodrigues-machado-518b2159/
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)  :https://www.linkedin.com/in/stiverson-rodrigues-machado-518b2159/
 
 
-![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)stiverson.machado@gmail.com
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) :   stiverson.machado@gmail.com
 
 
 Vamos juntos dominar o Python! 
