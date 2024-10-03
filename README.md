@@ -35,7 +35,7 @@ Entre em contato:
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/stiverson-rodrigues-machado-518b2159/)](https://www.linkedin.com/in/stiverson-rodrigues-machado-518b2159/)
 
 
-![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=stiverson.machado@gmail.com)   
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=) :   stiverson.machado@gmail.com
 
 
 Vamos juntos dominar o Python! 
