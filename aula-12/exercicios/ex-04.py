@@ -1,3 +1,6 @@
+# Crie um programa que tente concatenar uma string com um número,
+# tratando a exceção de operação inválida.
+
 def concatenar_tipos():
   try:
     texto = (input("Digite um texto qualquer : "))

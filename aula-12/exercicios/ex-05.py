@@ -1,3 +1,6 @@
+# Escreva um programa que leia um número e calcule seu quadrado, tratando
+# a exceção se o valor não for um número inteiro.
+  
 def calcular_quadrado():
   try:
     numero = int(input("Digite um número inteiro: "))
