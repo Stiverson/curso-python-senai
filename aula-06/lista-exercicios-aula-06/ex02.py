@@ -6,4 +6,4 @@ while x <= num:
         print(x)
     x = x + 1
 else:
-    print("Acabou")
+    print("E esse são os primeiros 50 numero pares")
