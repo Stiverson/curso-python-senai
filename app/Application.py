@@ -115,4 +115,61 @@ class Application:
         
         self.btnInsert = Button(self.container8, text="Inserir", font=self.fonte, width=12)
         self.btnInsert["command"] = self.inserirUsuario
+        self.btnInsert.pack (side=LEFT)
         
+        self.btnAlterar = Button(self.container8, text="Alterar", font=self.fonte, width=12)
+        self.btnAlterar["command"] = self.alterarUsuario
+        self.btnAlterar.pack (side=LEFT)
+        
+        self.btnExcluir = Button(self.container8, text="Excluir", font=self.fonte, width=12)
+        self.btnExcluir["command"] = self.excluirUsuario
+        self.btnExcluir.pack (side=LEFT)
+        
+        self.lblmsg = Label(self.container9, text="")
+        self.lblmsg["font"] = ("Verdana", "9", "italic")
+        self.lblmsg.pack()
+        
+    def inserirUsuario(self):
+        user = Usuarios()
+        
+        user.nome = self.txtnome.get()
+        user.telefone = self.txttelefone.get()
+        user.email = self.txtemail.get()
+        user.usuario = self.txtusuario.get()
+        user.senha = self.txtsenha.get() 
+        
+        self.lblmsg["text"] = user.insertUser()
+        
+        self.txtidusuario.delete(0, END)
+        self.txtnome.delete(0, END)
+        self.txttelefone.delete(0, END)
+        self.txtemail.delete(0, END)
+        self.txtusuario.delete(0, END)
+        self.txtsenha.delete(0, END) 
+        
+    def alterarUsuario(self):
+         
+        user = Usuarios()
+        
+        user.idusuario = self.txtusuario.get()
+        user.nome = self.txtnome.get()
+        user.telefone = self.txttelefone.get()
+        user.email = self.txtemail.get()
+        user.usuario = self.txtusuario.get()
+        user.senha = self.txtsenha.get() 
+        
+        self.lblmsg["text"] = user.updateUser()
+        
+        self.txtidusuario.delete(0, END)
+        self.txtnome.delete(0, END)
+        self.txttelefone.delete(0, END)
+        self.txtemail.delete(0, END)
+        self.txtusuario.delete(0, END)
+        self.txtsenha.delete(0, END)
+        
+    def excluirUsuario(self):
+        
+         user = Usuarios()
+         
+         user.idusuario = self.txtidusuario.get()
+         self.lblmsg["text"] = user.deleteUser()
