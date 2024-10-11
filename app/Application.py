@@ -103,9 +103,9 @@ class Application:
         self.txtusuario["font"] = self.fonte
         self.txtusuario.pack(side=LEFT)
         
-        self.lblidsenha = Label(self.container7, text="Senha:",
+        self.lblsenha = Label(self.container7, text="Senha:",
         font=self.fonte, width=10)
-        self.lblidsenha.pack(side=LEFT)
+        self.lblsenha.pack(side=LEFT)
         
         self.txtsenha = Entry(self.container7)
         self.txtsenha["width"] = 25
@@ -169,7 +169,28 @@ class Application:
         
     def excluirUsuario(self):
         
-         user = Usuarios()
+        user = Usuarios()
          
-         user.idusuario = self.txtidusuario.get()
-         self.lblmsg["text"] = user.deleteUser()
+        user.idusuario = self.txtidusuario.get()
+        self.lblmsg["text"] = user.deleteUser()
+         
+        self.txtidusuario.delete(0, END)
+        self.txtnome.delete(0, END)
+        self.txttelefone.delete(0, END)
+        self.txtemail.delete(0, END)
+        self.txtusuario.delete(0, END)
+        self.txtsenha.delete(0, END)
+    
+    def buscarUsuario(self):
+        
+        user = Usuarios()
+        
+        idusuario = self.txtidusuario.get()
+        
+        self.lblmsg["Text"] = user.selectUser(idusuario)
+        
+        self.txtidusuario.delete(0, END)
+        self.txtidusuario.insert(INSERT, user.idusuario)
+        
+        self.txtnome.delete(0, END)
+        self.txtnome.insert(INSERT, user.nome)
