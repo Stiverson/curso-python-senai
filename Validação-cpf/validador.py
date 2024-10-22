@@ -1,7 +1,6 @@
 def valida_cpf(cpf):
     cpf = ''.join(filter(str.isdigit, cpf))
 
-    
     if len(cpf) != 11:
         return False
 
